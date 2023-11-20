@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>live jogos</title>
+   <meta name="theme-color" content="#009ee3" />
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        div{
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .div1{
+            width: 100%;
+            background-color: transparent;
+            height: 50px;
+            position: fixed;
+           top: 0px;
+           display: flex;
+           flex-direction: column;
+           justify-content: right;
+        }
+        .cont{
+            width: 100%;
+            height: 42px;
+            background-color: black;
+        }
+        .div2{
+            width: 100%;
+            background-color: transparent;
+            height: 50px;
+            position: absolute;
+           top: 0px;
+           display: flex;
+           justify-content: right;
+           flex-direction: column;
+           margin-bottom: 12px;
+        }
+       
+.divweb-bottom{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    bottom: 40px;
+}
+    </style>
+</head>
+<body>
+    
+<div>
+    <div class="div1">
+    
+        <div class="cont"></div>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Xcj1DCb-0g4?si=3IRms7SVojL0ZwcP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+   <div class="divweb-bottom"></div>
+</div>
+
+</body>
+</html>
